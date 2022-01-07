@@ -1,5 +1,6 @@
 const Clickbutton = document.querySelectorAll('.button')
 const tbody = document.querySelector('.tbody')
+let compra = document.getElementById('compra')
 let carrito = []
 
 Clickbutton.forEach(btn => {
@@ -137,3 +138,10 @@ window.onload = function(){
     renderCarrito()
   }
 }
+
+compra.addEventListener("click", () => {
+  alert("gracias por su compra ")
+  localStorage.removeItem("carrito")
+})
+
+
