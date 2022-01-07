@@ -37,26 +37,37 @@
 
     <br><br>
 
-    <div
+    <div class="alert container position-sticky top-0 alert-primary hide" role="alert">
+      Producto Añadido al carrito!
+      </div>
+      <div class="alert container position-sticky top-0 alert-danger remove" role="alert">
+        Producto removido!
+      </div>
+
+<div
   class="bg-image p-5 text-center shadow-1-strong rounded mb-5 text-white"
   style="background-image: url('img/frut.jpg"> <h1> Tiendita de Verduras</h1>
 
   <b><h5 class="text-light text-uppercase">
     Encuentra Los Mejores Productos Al Mejor Precio </h5></b>
 </div>
+  
+
+
 
         <div class="tab-content" id="pills-tabContent">
             <div class="tab-pane fade " id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">1
             </div>
             <div class="tab-pane fade  show active container" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
                 <h2 class="h4 m-4 text-primary">Productos</h2>
-                <div class="row row-cols-sm-1 row row-cols-md-2 row row-cols-lg-3 row row-cols-xl-4">
+                <div class="row row-cols-sm-1 row-cols-md-2  row-cols-lg-3 row-cols-xl-4">
+                  <!-- <div class="card shadow mb-1 bg-light rounded" style="width: 20rem;"> -->
 
                     <div class="col d-flex justify-content-center mb-4">
 
                         <div class="card shadow mb-1 bg-light rounded" style="width: 20rem;">
                             <h5 class="card-title pt-2 text-center text-primary">Bananas</h5>
-                            <img class="fruta" src="img/front-close-view-delicious-bananas-exotic-food (1).jpg" class="card-img-top" alt="...">
+                            <img src="img/front-close-view-delicious-bananas-exotic-food (1).jpg" class="card-img-top" alt="...">
                             <div class="card-body ">
                               
                               <p class="card-text text-dark-50 description">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -70,6 +81,7 @@
 
 
                     <div class="col d-flex justify-content-center mb-4">
+                      
                         <div class="card shadow mb-1 bg-light rounded" style="width: 20rem;">
                             <h5 class="card-title pt-2 text-center text-primary">Lechuga</h5>
                             <img src="https://image.freepik.com/foto-gratis/hoja-ensalada-lechuga-aislada-sobre-fondo-blanco_1088-990.jpg" class="card-img-top" alt="...">
@@ -193,8 +205,8 @@
                     <th scope="col">Cantidad</th>
                   </tr>
                 </thead>
-                <tbody>
-                  <tr>
+                <tbody class="tbody">
+                  <!-- <tr>
                     <th scope="row">1</th>
                     <td class="table__productos">
                       <img src="https://image.freepik.com/foto-gratis/vista-superior-surtido-verduras-bolsa-papel_23-2148853335.jpg" alt="">
@@ -206,7 +218,7 @@
                       <button class="delate btn btn-danger">Eliminar</button>
                     </td>
                   </tr>
-                 
+                  -->
                 </tbody>
               </table>
               <br><br>

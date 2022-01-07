@@ -54,3 +54,7 @@ header{
 
 }
 
+
+.hide, .remove{
+    display: none;
+  }
